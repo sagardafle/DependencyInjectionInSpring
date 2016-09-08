@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: DependencyInjectionusingSetter
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: daffy
+Implementation-Vendor-Id: com.sagardafle.dependencyinjection
+Build-Jdk: 1.8.0_92
+Implementation-URL: http://projects.spring.io/spring-boot/DIusingSette
+ r/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

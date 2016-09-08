@@ -1,0 +1,16 @@
+package com.sagardafle.dependencyinjection;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DependencyInjectionusingSetterApplication {
+
+	private static ApplicationContext myapplicationcontext;
+
+	public static void main(String[] args) {
+		myapplicationcontext = new ClassPathXmlApplicationContext("SpringConfig.xml");
+		RestaurantBean restobj = (RestaurantBean) myapplicationcontext.getBean("restaurantBean");
+		restobj.prepareHotDrink();
+	}
+}

@@ -1,0 +1,12 @@
+package com.sagardafle.dependencyinjection;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DependencyInjectionusingSetterApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DependencyInjectionusingSetterApplication.class, args);
+	}
+}

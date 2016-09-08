@@ -1,0 +1,14 @@
+package com.sagardafle.dependencyinjection;
+
+public class RestaurantBean {
+	
+ IHotDrink hotdrink;
+ 
+ public void setDrinkType(IHotDrink hotDrink) {
+	this.hotdrink =hotDrink; 
+}
+ 
+ public void prepareHotDrink(){
+	 hotdrink.prepareHotDrink();
+ }
+}
